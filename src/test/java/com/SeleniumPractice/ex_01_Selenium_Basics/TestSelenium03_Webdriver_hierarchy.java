@@ -2,7 +2,9 @@ package com.SeleniumPractice.ex_01_Selenium_Basics;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 public class TestSelenium03_Webdriver_hierarchy {
@@ -36,7 +38,16 @@ public class TestSelenium03_Webdriver_hierarchy {
 //        RemoteWebDriver driver1 = new ChromeDriver();
 //        ChromeDriver  driver2 = new ChromeDriver();
 
-        //Case 1 :
+        //Case 1 :If we want to run our test only on chrome/edge
+       // ChromeDriver  driver1 = new ChromeDriver();
+       // EdgeDriver  driver2 = new EdgeDriver();
+
+        //Case 2 : Ife we want to run in chrome and then change to edge
+        //WebDriver driver = new ChromeDriver();
+       // driver = new EdgeDriver();
+
+        //Case 3 : if we want to run on multiple browsers,aws machines
+       // RemoteWebDriver driver=new ChromeDriver();
 
     }
 }
