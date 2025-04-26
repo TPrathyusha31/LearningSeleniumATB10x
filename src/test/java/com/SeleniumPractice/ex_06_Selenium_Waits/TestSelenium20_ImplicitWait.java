@@ -32,9 +32,10 @@ public class TestSelenium20_ImplicitWait {
         WebElement signin = driver.findElement(By.id("js-login-btn"));
         signin.click();
 
-        WebElement error_message = driver.findElement(By.className("notification-box-description"));
+        WebElement error = driver.findElement(By.id("js-notification-box-msg"));
+        System.out.println(error.getText());
 
-        Assert.assertEquals(error_message.getText(), "Your email, password, IP address or location did not match");
-                driver.quit();
+        Assert.assertEquals(error.getText(),"Your email, password, IP address or location did not match");
+        driver.quit();
     }
 }
