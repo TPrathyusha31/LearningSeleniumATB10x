@@ -28,6 +28,7 @@ public class TestSelenium28_SVGelements_example1 {
         search.sendKeys("macmini");
 
         List<WebElement> svg = driver.findElements(By.xpath("//*[local-name()='svg']"));
+        // for svg xpath can also be --> //*[name()='svg']
         svg.get(0).click();
 
         waitHelpers.waitJVM(5000);
