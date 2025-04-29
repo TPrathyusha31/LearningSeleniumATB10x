@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class TestSelenium33_WritingTextinCAPS_ActionsClass extends  TestCaseBoilerPlate{
+    //here as we are exteding the biolerplate class, it will only take care of opening and closing the browser, we don't need to call/write explicitly
 
     @Test
     public void test_actions1(){
