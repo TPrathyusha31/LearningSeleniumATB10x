@@ -1,10 +1,9 @@
-package com.SeleniumPractice.ex_11_Actions_Class;
+package com.SeleniumPractice.ex_12_FileUploading;
 
 import com.SeleniumPractice.TestCaseBoilerPlate;
 import com.SeleniumPractice.ex_09_waitHelpers.waitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class TestSelenium38_FileUploading extends TestCaseBoilerPlate {
