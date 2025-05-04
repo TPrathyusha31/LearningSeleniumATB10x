@@ -20,7 +20,7 @@ public class TestSelenium38_FileUploading extends TestCaseBoilerPlate {
         System.out.println(working_dir);
 
 
-        uploadfileinput.sendKeys(working_dir + "src/test/java/com/SeleniumPractice/ex_11_Actions_Class/testdata.txt");
+        uploadfileinput.sendKeys(working_dir + "/src/test/java/com/SeleniumPractice/ex_12_FileUploading/testdata.txt ");
         driver.findElement(By.name("submit")).click();
     }
 }
