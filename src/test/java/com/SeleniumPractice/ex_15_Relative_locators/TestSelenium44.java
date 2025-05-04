@@ -1,4 +1,6 @@
 package com.SeleniumPractice.ex_15_Relative_locators;
 
-public class TestSelenium44 {
+import com.SeleniumPractice.TestCaseBoilerPlate;
+
+public class TestSelenium44 extends TestCaseBoilerPlate {
 }
